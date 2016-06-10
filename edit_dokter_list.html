@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Klinik XYZ</title>
+<meta name="viewport" content="width-device-width,initial-scale=1.0">
+       <!-- masukan file css -->
+       <link rel="stylesheet" type"text/css" href="css/style.css" />
+       <link rel="stylesheet" type"text/css" href="css/materialize.css" />
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar-fixed">
+     <nav class="menu-header z-depth-0"> <!-- menu header-->
+	     <div class="container">
+             <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Klinik XYZ</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                
+				<!-- Dropdown Structure -->
+                    <ul id='dokter' class='dropdown-content'>
+                         <li><a href="admin/tambah_dokter.html">Tambah</a></li>
+                         <li><a href="admin/edit_dokter.html">Edit</a></li>
+	                     <li><a href="admin/non_dokter.html">Non-Aktif</a></li>
+                      </ul>
+					  <ul id='pasien' class='dropdown-content'>
+                         <li><a href="admin/tambah_pasien.html">Tambah</a></li>
+                         <li><a href="admin/edit_pasien.html">Edit</a></li>
+                      </ul>
+					  <ul id='petugas' class='dropdown-content'>
+                         <li><a href="admin/tambah_petugas.html">Tambah</a></li>
+                         <li><a href="admin/edit_petugas.html">Edit</a></li>
+	                     <li><a href="admin/hapus_petugas.html">Hapus</a></li>
+                      </ul>
+					  	 <ul id='poli' class='dropdown-content'>
+                         <li><a href="admin/tambah_poli.html">Tambah</a></li>
+                         <li><a href="admin/edit_poli.html">Edit</a></li>
+	                     <li><a href="admin/non_poli.html">Non-Aktif</a></li>
+                      </ul>
+				  <ul class="side-nav" id="mobile-demo">
+				      <li><a href="admin/admin.html" class='dropdown-button btn'>Home</a></li>
+                      <li><a href="#" class='dropdown-button btn' data-activates="pasien">Pasien</a></li>
+                      <li><a href="#" class='dropdown-button btn' data-activates="dokter">Dokter</a></li>
+					  <li><a href="#" class='dropdown-button btn' data-activates="petugas">Petugas</a></li>
+					  <li><a href="#" class='dropdown-button btn' data-activates="poli">Poli</a></li>
+                  </ul>
+             </div>
+         </div>
+	 </nav> <!-- menu header-->
+</div>
+	 <div class="row">
+    <form class="col s12">
+	 <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">assignment_ind</i>
+          <input id="icon_prefix" type="text" class="validate" name="username">
+          <label for="icon_prefix">Username</label>
+        </div></div>
+		
+		 <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">assignment_late</i>
+          <input id="icon_prefix" type="text" class="validate" name="password">
+          <label for="icon_prefix">Password</label>
+        </div></div>
+		
+		
+      <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" class="validate" name="nama">
+          <label for="icon_prefix">Nama Dokter</label>
+        </div></div>
+		
+		<div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">today</i>
+          <input type="date" class="datepicker" name="tgllahir">
+		  
+        </div>
+        </div>
+		
+		
+		<div class="row">
+		 <div class="input-field col s12">
+          <i class="material-icons prefix"></i>
+		 
+      <input name="group1" type="radio" id="test1" />
+      <label for="test1">Laki-Laki</label>
+	   <input name="group1" type="radio" id="test2" />
+      <label for="test2">Perempuan</label>
+	</div>
+	</div>
+	
+		<div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">room</i>
+          <input id="icon_prefix" type="text" class="validate" name="alamat">
+		  <label for="icon_today">Alamat</label>
+        </div>
+        </div>
+		
+		
+		
+		 <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" type="tel" class="validate" name="telepon">
+          <label for="icon_telephone">Telephone</label>
+        </div>
+      </div>
+	  
+	  <div class="row">
+	    <div class="input-field col s12">
+		<i class="material-icons prefix">grade</i>
+    <select>
+      <option value="" disabled selected>Choose your option</option>
+      <option value="1">Option 1</option>
+      <option value="2">Option 2</option>
+      <option value="3">Option 3</option>
+    </select>
+    <label>Pilih Spesialis Dokter</label>
+      </div></div>
+	  
+	  
+	<button class="btn waves-effect waves-light" type="submit" name="action">Edit
+    <i class="material-icons right">send</i>
+    </button>
+  
+    </form>
+ </div>
+	 
+	 
+	 
+	 
+<!-- masukan file javascript -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
+</body>
+</html>

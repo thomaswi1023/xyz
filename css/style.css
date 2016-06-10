@@ -1,0 +1,23 @@
+nav {
+background-color:#03a9f4 !important;
+border-bottom:3px solid #795548;
+}
+
+.menu-header .dropdown-content{
+margin-top:65px !important;
+margin-left:125px !important;
+width:200px !important;
+background-color:	#F8F8FF !important;
+border-bottom:3px solid  #00BFFF;
+}
+
+.content-header{
+margin-top:17px !important;
+}
+
+.content-header .card{
+background-color:	#f0f4c3
+;
+}
+
+    

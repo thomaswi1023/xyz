@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Klinik XYZ</title>
+<meta name="viewport" content="width-device-width,initial-scale=1.0">
+       <!-- masukan file css -->
+       <link rel="stylesheet" type"text/css" href="css/style.css" />
+       <link rel="stylesheet" type"text/css" href="css/materialize.css" />
+	    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<div class="navbar-fixed">
+     <nav class="menu-header z-depth-0"> <!-- menu header-->
+	     <div class="container">
+             <div class="nav-wrapper">
+                <a href="#!" class="brand-logo">Klinik XYZ</a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                
+				<!-- Dropdown Structure -->
+                       <ul id='pasien' class='dropdown-content'>
+                         <li><a href="petugas/tambah_pasien_petugas.html">Tambah</a></li>
+                         <li><a href="petugas/edit_pasien_petugas.html">Edit</a></li>
+                      </ul>
+					 
+					  	 
+				  <ul class="side-nav" id="mobile-demo">
+				      <li><a href="petugas/petugas.html" class='dropdown-button btn'>Home</a></li>
+                      <li><a href="#" class='dropdown-button btn' data-activates="pasien">Pasien</a></li>
+                  </ul>
+             </div>
+         </div>
+	 </nav> <!-- menu header-->
+</div>
+	 <div class="row">
+    <form class="col s12">
+	 <div class="row">
+        <div class="input-field col s12">
+          <i class="material-icons prefix">perm_identity</i>
+          <input id="icon_prefix" type="text" class="validate" name="id_dokter">
+          <label for="icon_prefix">Id Pasien</label>
+        </div></div>
+		
+	<button class="btn waves-effect waves-light" type="submit" name="action">Cari
+    <i class="material-icons left">search</i>
+    </button>
+  
+    </form>
+ </div>
+	 
+	 
+	 
+	 
+<!-- masukan file javascript -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/materialize.js"></script>
+<script type="text/javascript" src="js/myscript.js"></script>
+</body>
+</html>
