@@ -14,17 +14,17 @@
 	     <div class="container">
              <div class="nav-wrapper">
                 <a href="#!" class="brand-logo">Klinik XYZ</a>
-				<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+				<a href="#" data-activates="mobile-demo" class="button-collapse">Menu</i></a>
                 
 				<!-- Dropdown Structure -->
                      <ul id='pasien' class='dropdown-content'>
-                         <li><a href="petugas/tambah_pasien_petugas.html">Tambah</a></li>
-                         <li><a href="petugas/edit_pasien_petugas.html">Edit</a></li>
+                         <li><a href="tambah_pasien_petugas.html">Tambah</a></li>
+                         <li><a href="edit_pasien_petugas.html">Edit</a></li>
                       </ul>
 					 
 					  	 
 				  <ul class="side-nav" id="mobile-demo">
-				      <li><a href="petugas/petugas.html" class='dropdown-button btn'>Home</a></li>
+				      <li><a href="petugas.html" class='dropdown-button btn'>Home</a></li>
                       <li><a href="#" class='dropdown-button btn' data-activates="pasien">Pasien</a></li>
                   </ul>
              </div>
@@ -35,14 +35,12 @@
     <form class="col s12">
 	 <div class="row">
         <div class="input-field col s12">
-          <i class="material-icons prefix">assignment_ind</i>
           <input id="icon_prefix" type="text" class="validate" name="username">
           <label for="icon_prefix">Username</label>
         </div></div>
 		
 		 <div class="row">
         <div class="input-field col s12">
-          <i class="material-icons prefix">lock_outline</i>
           <input id="icon_prefix" type="text" class="validate" name="password">
           <label for="icon_prefix">Password</label>
         </div></div>
@@ -50,14 +48,13 @@
 		
       <div class="row">
         <div class="input-field col s12">
-          <i class="material-icons prefix">account_circle</i>
           <input id="icon_prefix" type="text" class="validate" name="nama">
           <label for="icon_prefix">Nama Pasien</label>
         </div></div>
 		
 		<div class="row">
+		<label>Tanggal Lahir</label>
         <div class="input-field col s12">
-          <i class="material-icons prefix">today</i>
           <input type="date" class="datepicker" name="tgllahir">
 		  
         </div>
@@ -65,9 +62,8 @@
 		
 		
 		<div class="row">
+		<label>Jenis Kelamin</label>
 		 <div class="input-field col s12">
-          <i class="material-icons prefix"></i>
-		 
       <input name="group1" type="radio" id="test1" />
       <label for="test1">Laki-Laki</label>
 	   <input name="group1" type="radio" id="test2" />
@@ -77,17 +73,13 @@
 	
 		<div class="row">
         <div class="input-field col s12">
-          <i class="material-icons prefix">room</i>
           <input id="icon_prefix" type="text" class="validate" name="alamat">
 		  <label for="icon_today">Alamat</label>
         </div>
         </div>
 		
-		
-		
 		 <div class="row">
         <div class="input-field col s12">
-          <i class="material-icons prefix">phone</i>
           <input id="icon_telephone" type="tel" class="validate" name="telepon">
           <label for="icon_telephone">Telephone</label>
         </div>
@@ -97,7 +89,6 @@
 	  
 	  
 	<button class="btn waves-effect waves-light" type="submit" name="action">Tambah
-    <i class="material-icons right">send</i>
     </button>
   
     </form>
